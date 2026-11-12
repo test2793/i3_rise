@@ -8,7 +8,7 @@ fi
 
 REAL_USER=${SUDO_USER:-$USER}
 USER_HOME=$(getent passwd "$REAL_USER" | cut -d: -f6)
-pacman -Syu --noconfirm git i3-wm polybar picom dunst feh rofi alacritty gnome-screenshot maim xclip libpulse dex xss-lock i3lock xorg-setxkbmap xxkb ttf-terminus-nerd ttf-nerd-fonts-symbols
+pacman -Syu --noconfirm git polybar picom dunst feh rofi alacritty gnome-screenshot maim xclip libpulse dex xss-lock i3lock xorg-setxkbmap xxkb ttf-terminus-nerd ttf-nerd-fonts-symbols
 
 TEMP_DIR="/tmp/i3_rise"
 rm -rf "$TEMP_DIR"
