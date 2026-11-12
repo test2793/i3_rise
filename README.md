@@ -4,7 +4,7 @@ Installation (only for Arch Linux):
 
 ```bash
 sudo pacman -S --noconfirm wget
-wget https://githubusercontent.com
+wget https://raw.githubusercontent.com/test2793/i3_rise/refs/heads/main/install.sh
 chmod +x install.sh
 sudo ./install.sh
 ```
